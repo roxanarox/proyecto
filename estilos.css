@@ -1,0 +1,411 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+header{
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(255,255,255,.5); 
+    width: 100%;
+}
+header .container{ 
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header .container .logo{
+    width: 150px;
+}
+header .container nav a{
+    color:#34495E;
+    text-decoration: none;
+    margin: 0px 35px;
+}
+.logo{
+     
+    flex: 1 1 auto;
+}
+
+.logo a:hover{
+   color: black;  
+}
+.nav{
+    align-items: center;
+    display: flex;
+}
+
+.nav a:hover{
+    color: #343434;
+    text-decoration: underline;
+}
+.social>a>img{
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 25px; 
+    
+}
+.social{
+    justify-content: center;
+    margin: 0 0 0 0 30px;
+    display: flex;
+}
+.inicio{
+    display: flex;
+    background-color: rgba(255,255,255,.5);
+}
+
+
+.imagen{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+.bloque{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.segunda{
+    background-image: url(imag/mantas5.jpg);
+    background-repeat:repeat-y;
+    width: 1265px;
+    height: 500px;
+    
+    }
+.bloque{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.cho{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    margin: 50px 50px 50px 50px;
+
+}
+.cho>a{
+color: #BD69AB;
+}
+.bienve{
+    display: flex;
+    text-align: center;
+    background-color: F8F9F9;
+   flex-direction: column;
+   padding: 50px;
+
+    
+}
+.bienve>p{
+    margin: 50px 100px 50px 100px;
+
+}
+.cajitas{
+    background-color: #ECF0F1;
+    display: flex;
+    flex: 1 1 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 32px;
+}
+.cajitas>div>img{
+    width: 75px;
+    height: 50px;
+    align-self: center;
+}
+.cajasa{
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cajotas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.texto1{
+   padding: 50px; 
+   margin: 10px 0;
+   
+}
+.girar{
+    background-image: url(imag/frazadas.jpg);
+    background-attachment: fixed;
+    padding: 200px;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 1265px;
+    height: 700px;
+    -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+.text0{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 30px;
+    
+}
+.caja4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 180px;
+    
+
+}
+.clientes>a>img{
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.caja5{
+    background-color: #000033 ;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+.caja5>a{
+    border:solid white 1px;
+    padding: 10px;
+    color: white;
+    
+}
+.caja5>p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+}
+.caja6{
+    
+    background-color: #424242;
+    display: flex;
+    flex: 1 1 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 32px;
+}
+.primer>p{
+    color: white;
+}
+.primer{
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    margin: 50px 50px 50px;
+}
+.primer>img{
+    width: 180px;
+    height: 100px;
+    align-self: center;
+}
+.pie{
+    background-color: #616161;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.cho>h2{
+    font-family: 'Roboto', sans-serif;
+    color: #34495E;
+    font-size: 35px;
+}
+.cho>p{
+    font-family: 'Roboto', sans-serif;
+    color: black; 
+    font-size: 28px;
+
+}
+.cho>a{
+    border: solid #D5D8DC 1px;
+    padding: 5px;
+    background-color: #D5D8DC;
+    color: white;
+}
+.bienve>h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    color: #34495E;
+}
+.biene>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #34495E;
+}
+/* Tablets*/
+@media all and (max-width:800px){
+    body
+      {
+       font-size: 15px;
+      }
+    .margen{
+      flex-direction: column;  
+    }
+    .girar{
+        flex-direction: column;
+        width: 800px;
+        height: 680px;
+
+        
+    }
+    .text0{
+        
+        font-size: 20px;
+        
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        font-weight: 300;
+       
+       
+    }
+    .cajitas{
+        flex-direction: column; 
+    }
+    .container>nav {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        padding-bottom: 80px;
+        padding-top: 80px;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.4s ease ;
+        transform: translateX(100%);
+    }
+
+.bloque{
+    flex-direction: column;
+        
+}
+.segunda{ 
+       width: 800px;
+        height: 680px;
+}
+.caja6{
+    flex-direction: column;
+}
+.imagen>img{
+    width: 400px;
+    height: 270px; 
+}
+}
+@media all and (max-width:400px){
+    body
+      {
+       font-size: 15px;
+      }
+    .margen{
+      flex-direction: column;  
+    }
+    .girar{
+        flex-direction: column;
+        width: 300px;
+        height: 460px;
+        justify-content: center;
+
+        
+    }
+    .text0{
+        
+        font-size: 20px;
+        
+        line-height: 14px;
+        letter-spacing: 0.5px;
+        font-weight: 150;
+       
+       
+    }
+    .text0>h1{
+        width: 320px;
+        height: 50px;
+    }
+    .text0>p{
+        width: 320px;
+        height: 50px;
+    }
+    .cajitas{
+        flex-direction: column; 
+    }
+    .container>nav {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.4s ease ;
+        transform: translateX(100%);
+    }
+
+.bloque{
+    flex-direction: column;
+        
+}
+.segunda{ 
+       width: 400px;
+        height: 440px;
+}
+.caja6{
+    flex-direction: column;
+}
+.imagen>img{
+    width: 200px;
+    height: 140px; 
+}
+.titulo>h1{
+    width: 320px;
+        height: 50px;
+        padding: 0px;
+}
+.caja4{
+    padding: 0px;
+    flex-direction: column;
+}
+.caja5{
+    flex-direction: column; 
+}
+.caja5>a{
+    padding: 5px;
+}
+}
